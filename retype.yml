@@ -1,0 +1,21 @@
+input: .
+output: .retype
+url: # https://api.comicupdates.org/docs
+branding:
+  title: ComicUpdates
+  label: v1.5.2
+favicon: # favicon.svg
+edit:
+  repo: https://github.com/ComicUpdates/API-Docs/
+links:
+- text: Website
+  link: https://comicupdates.org/
+  icon: # logo.svg
+- text: Github
+  link: https://github.com/ComicUpdates/
+  icon: github.svg
+- text: Discord
+  link: https://discord.gg/
+  icon: discord.svg
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
