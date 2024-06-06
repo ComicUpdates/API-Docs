@@ -3,7 +3,7 @@ output: .retype
 url: # https://api.comicupdates.org/docs
 branding:
   title: ComicUpdates
-  label: v1.5.2
+  label: v1.3.2
 favicon: # favicon.svg
 edit:
   repo: https://github.com/ComicUpdates/API-Docs/

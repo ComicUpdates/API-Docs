@@ -5,6 +5,9 @@ icon: home
 ---
 
 # API documentation
+!!!
+Join Our [Discord Server!](https://discord.gg/ComicUpdates)
+!!!
 
 Welcome to the **ComicUpdates** API documentation. Our database includes comics from all over the world and notifications keep you current on new releases. The site supports **English, Chinese, Japanese, Korean, Spanish** and more.   
 
