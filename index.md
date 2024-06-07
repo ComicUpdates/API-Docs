@@ -48,3 +48,7 @@ If you find something that seems off during development or API use, please share
 ==- I found something missing/wrong in the documentation
 We're always working to improve our documentation. Please let us know if you find any mistakes or missing information. Early versions may leave some details unclear on purpose. Feel free to ask us any questions - we're happy to help explain things better. Accurate docs help everyone, so feedback is much appreciated. Thanks!
 ===
+
+==- What is a Free and Paid Account?
+Free and paid accounts both have their own benefits. A free account allows you to use our service without paying anything, but you you got some limits. Subscribing to a paid plan gives you more features, and higher limits. Paid Accounts means that you are subscribing to the Basic, Premium or the Elite Plan.
+===

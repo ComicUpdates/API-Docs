@@ -10,49 +10,83 @@ label: Static Data
 
 | Language | Description                |
 |----------|----------------------------|
+| en       | English                    |
 | zh       | Simplified Chinese         |
-| zh-hk    | Traditional Chinese        |
-| pt-br    | Brazilian Portuguese       |
 | es       | Castilian Spanish          |
+| ar       | Arabic                     |
+| hi       | Hindi                      |
+| bn       | Bengali                    |
+| ru       | Russian                    |
+| pt       | Portuguese                 |
+| id       | Indonesian                 |
+| fr       | French                     |
+| de       | German                     |
+| ja       | Japanese                   |
+| ko       | Korean                     |
+| it       | Italian                    |
+| tr       | Turkish                    |
+| pl       | Polish                     |
+| ms       | Malay                      |
+| pt-br    | Brazilian Portuguese       |
+| vi       | Vietnamese                 |
+| th       | Thai                       |
+| fa       | Persian                    |
 | es-la    | Latin American Spanish     |
+| nl       | Dutch                      |
+| ro       | Romanian                   |
+| el       | Greek                      |
+| hu       | Hungarian                  |
+| no       | Norwegian                  |
+| sv       | Swedish                    |
+| cs       | Czech                      |
+| uz       | Uzbek                      |
+| bg       | Bulgarian                  |
+| hr       | Croatian                   |
+| sk       | Slovak                     |
+| da       | Danish                     |
+| fi       | Finnish                    |
+| he       | Hebrew                     |
+| ca       | Catalan                    |
+| et       | Estonian                   |
+| lt       | Lithuanian                 |
+| sl       | Slovenian                  |
+| zh-hk    | Traditional Chinese        |
+| fil      | Filipino                   |
+| uk       | Ukrainian                  |
+| sr       | Serbian                    |
+| kk       | Kazakh                     |
+| mn       | Mongolian                  |
+| ne       | Nepali                     |
+| ta       | Tamil                      |
+| te       | Telugu                     |
+| ka       | Georgian                   |
+| eo       | Esperanto                  |
+| la       | Latin                      |
+| az       | Azerbaijani                |
+| my       | Burmese                    |
 | ja-ro    | Romanized Japanese         |
 | ko-ro    | Romanized Korean           |
 | zh-ro    | Romanized Chinese          |
-| en       | English                    |
-| ja       | Japanese                   |
-| ko       | Korean                     |
-| fr       | French                     |
-| de       | German                     |
-| ru       | Russian                    |
-| it       | Italian                    |
-| es       | Spanish                    |
-| pt       | Portuguese                 |
-| nl       | Dutch                      |
-| pl       | Polish                     |
-| tr       | Turkish                    |
-| ar       | Arabic                     |
-| th       | Thai                       |
-| vi       | Vietnamese                 |
 
-## Manga publication demographic
+## Publication Demographic
 
 | Value   | Description        |
 |---------|--------------------|
-| shounen | Manga is a Shounen |
-| shoujo  | Manga is a Shoujo  |
-| josei   | Manga is a Josei   |
-| seinen  | Manga is a Seinen  |
+| shounen | Is a Shounen       |
+| shoujo  | Is a Shoujo        |
+| josei   | Is a Josei         |
+| seinen  | Is a Seinen        |
 
-## Manga status
+## Status
 
 | Value     | Description              |
 |-----------|--------------------------|
-| ongoing   | Manga is still going on  |
-| completed | Manga is completed       |
-| hiatus    | Manga is paused          |
-| cancelled | Manga has been cancelled |
+| ongoing   | Is still going on        |
+| completed | Is completed             |
+| hiatus    | Is paused                |
+| cancelled | Has been cancelled       |
 
-## Manga content rating
+## Content rating
 
 | Value        | Description          |
 |--------------|----------------------|
@@ -61,7 +95,7 @@ label: Static Data
 | erotica      | Erotica content      |
 | pornographic | Pornographic content |
 
-## Manga order options
+## Order options
 
 | Name                  | Value                   | Default  |
 |-----------------------|-------------------------|----------|
@@ -90,7 +124,7 @@ label: Static Data
 |------------------|--------------------------------|
 | manga            | Manga resource                 |
 | chapter          | Chapter resource               |
-| img_cover        | A Image Cover for a manga `*`    |
+| img_cover        | A Image Cover for a manga      |
 | author           | Author resource                |
 | artist           | Author resource (drawers only) |
 | scanlation_group | ScanlationGroup resource       |
@@ -98,10 +132,9 @@ label: Static Data
 | user             | User resource                  |
 | custom_list      | CustomList resource            |
 
-## Manga links data
+## Links data
 
-In Manga attributes you have the `links` field that is a JSON object with some strange keys, here is how to decode this
-object:
+The `links` field in Manga attributes contains a JSON object with some strange values. The following describes how to decode this object:
 
 | Key   | Related site  | URL                                                                                           | URL details                                                    |
 |-------|---------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------|
